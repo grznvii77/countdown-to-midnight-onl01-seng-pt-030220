@@ -3,7 +3,7 @@ def countdown(seconds_remaining)
     puts "#{seconds_remaining} SECOND(S)!"
     seconds_remaining -= 1 
   end  
-  "HAPPY NEW YEAR!"
+  return "HAPPY NEW YEAR!"
 end
 
 
@@ -13,5 +13,5 @@ def countdown(seconds_remaining)
     sleep(1)
     seconds_remaining -= 1 
   end
-  "HAPPY NEW YEAR!"
+  return "HAPPY NEW YEAR!"
 end
