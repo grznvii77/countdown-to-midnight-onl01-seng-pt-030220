@@ -13,4 +13,5 @@ def countdown(seconds_remaining)
     sleep(1)
     seconds_remaining -= 1 
   end
+  "HAPPY NEW YEAR!"
 end
